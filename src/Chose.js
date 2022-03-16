@@ -23,6 +23,6 @@ export default class Chose {
     this._texte = texte;
     }
     pourAfficher() {
-    return `--> ${this._texte} (${ this._fait ? "fait" : "à faire"})`;
+    return ` ${this._texte} [${ this._fait ? "fait" : "à faire"}]`;
     }
    }
